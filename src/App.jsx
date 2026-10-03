@@ -27,8 +27,7 @@ function App() {
     <p className="hero-greeting">Hi, there! I'm</p>
     <h1>Jeny An Telesforo</h1>
     <div className="role-group">
-    <h2 >Front-end Developer & </h2>
-    <h2> UI/UX Designer</h2>
+    <h2 className="typing-role">Frontend &amp; UI/UX Designer</h2>
   </div>
 
   <div className="hero-buttons">
@@ -102,30 +101,37 @@ function App() {
     <h2>Projects</h2>
   </div>
 
-  <div className="projects-grid">
+ <div className="projects-grid">
 
-    <a href="https://www.figma.com/design/lRNr2ckS6YH5FiahvV7BZp/HCI?node-id=0-1" target="_blank" rel="noopener noreferrer" className="project-card">
-      <img src="/product.png" alt="Project 1" />
-      <div className="project-overlay">
-        <h3>Product Landing Page</h3>
-      </div>
-    </a>
-
-    <a href="https://awesometodosapp-bb09.onrender.com/" target="_blank" rel="noopener noreferrer" className="project-card">
-      <img src="/awesometodo.png" alt="Project 2" />
-      <div className="project-overlay">
-        <h3>Awesometodosapp</h3>
-      </div>
-    </a>
-
-    <a href="https://www.figma.com/proto/WSL2c4wKWHOZznEZpfeWP6/Siklab?node-id=191-218&viewport=2114%2C397%2C0.08&t=Wm5vn6ZLPTObX7uI-1&scaling=contain&content-scaling=fixed&starting-point-node-id=191%3A209&page-id=0%3A1" target="_blank" rel="noopener noreferrer" className="project-card">
-      <img src="/app.png" alt="Project 3" />
-      <div className="project-overlay">
-        <h3>Web app</h3>
-      </div>
-    </a>
-
+  <div className="project-card">
+    <img src="/product.png" alt="Project 1" />
+    <div className="project-overlay">
+      <h3>Product Landing Page</h3>
+    </div>
   </div>
+
+  <div className="project-card">
+    <img src="/awesometodo.png" alt="Project 2" />
+    <div className="project-overlay">
+      <h3>Awesometodosapp</h3>
+    </div>
+  </div>
+
+  <div className="project-card">
+    <img src="/app.png" alt="Project 3" />
+    <div className="project-overlay">
+      <h3>Web App</h3>
+    </div>
+  </div>
+
+  <div className="project-card">
+    <img src="/aktiv.png" alt="Project 4" />
+    <div className="project-overlay">
+      <h3>Web App 2</h3>
+    </div>
+  </div>
+
+</div>
   </section>
   <section id="contact" className="contact-section">
    <h2>Contact Me</h2>
