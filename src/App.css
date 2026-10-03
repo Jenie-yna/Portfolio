@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: Arial, sans-serif;
-  color: #ffffff;
+  color: #F2f3f4;
   background: #08020f;
   position: relative;
   overflow-x: hidden;
@@ -79,7 +79,7 @@ img {
 }
 
 .nav-links a:hover {
-  color: #ffffff;
+  color: #f2f3f4;
 }
 
 .hero {
@@ -97,21 +97,21 @@ img {
 }
 
 .hero-greeting {
-  font-size: 1.1rem;
-  color: #e9d5ff;
+  font-size: 1.6rem;
+  color: #DA70DC;
   margin-bottom: 12px;
 }
 
 .hero-text h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.1;
-  color: #ffffff;
+  color: #f2f3f4;
   margin-bottom: 12px;
 }
 
 .hero-text h2 {
-  font-size: 1.7rem;
-  color: #A53FAA;
+  font-size: 2rem;
+  color: #DA70DC;
   margin-bottom: 22px;
   font-weight: 600;
 }
@@ -132,12 +132,12 @@ img {
 }
 
 .hero-title span {
-  color: #A53FAA;
+  color: #DA70DC;
 }
 
 .hero-subtitle {
   font-size: 1.6rem;
-  color: #A53FAA;
+  color: #DA70DC;
   margin-bottom: 30px;
   font-weight: 500;
 }
@@ -145,7 +145,7 @@ img {
 .big-role {
   font-size: 4.5rem;
   font-weight: 800;
-  color: #A53FAA;
+  color: #DA70DC;
   line-height: 1.1;
   margin-bottom: 10px;
 }
@@ -172,8 +172,8 @@ img {
 }
 
 .primary-btn {
-  background: #A53FAA;
-  color: #ffffff;
+  background: #DA70DC;
+  color: #f2f3f4;
   box-shadow: none;
 }
 
@@ -203,7 +203,7 @@ img {
   position: absolute;
   width: 340px;
   height: 340px;
-  background: #A53FAA;
+  background: #DA70DC;
   opacity: 0.15;
   border-radius: 50%;
   z-index: 0;
@@ -239,7 +239,7 @@ img {
 }
 
 .section-label {
-  color: #A53FAA;
+  color: #DA70DC;
   margin-bottom: 10px;
   font-size: 0.95rem;
 }
@@ -247,7 +247,7 @@ img {
 .section-heading h2,
 .contact-section h2 {
   font-size: 2.7rem;
-  color: #ffffff;
+  color: #f2f3f4;
   text-align: center;
 }
 
@@ -298,7 +298,7 @@ img {
 }
 
 .skills-box h3 {
-  color: #A53FAA;
+  color: #DA70DC;
   margin-bottom: 24px;
   font-size: 1.5rem;
 }
@@ -365,7 +365,7 @@ img {
 }
 
 .project-overlay h3 {
-  color: #ffffff;
+  color: #f2f3f4;
   margin-bottom: 8px;
 }
 
@@ -395,7 +395,7 @@ img {
 .contact-name {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #A53FAA;
+  color: #DA70DC;
 }
 
 .contact-number {
@@ -425,7 +425,7 @@ img {
 
 .contact-row i {
   font-size: 18px;
-  color: #A53FAA;
+  color: #DA70DC;
 }
 
 .contact-row span {
@@ -464,7 +464,7 @@ img {
 
 .hover-role {
   position: relative;
-  color: #A53FAA;
+  color: #DA70DC;
   transition: 0.3s ease;
   cursor: pointer;
 }
@@ -476,12 +476,12 @@ img {
   bottom: -4px;
   width: 0%;
   height: 2px;
-  background: #A53FAA;
+  background: #DA70DC;
   transition: 0.3s ease;
 }
 
 .hover-role:hover {
-  color: #ffffff;
+  color: #f2f3f4;
   text-shadow: 0 0 10px #a855f7;
 }
 
@@ -662,16 +662,16 @@ img {
   }
 }
 .static-name {
-  color: #A53FAA;
+  color: #DA70DC;
 }
 
 .hero-text .typing-role {
-  color: #A53FAA;
+  color: #DA70DC;
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
   width: 0;
-  border-right: 3px solid #A53FAA;
+  border-right: 3px solid #DA70DC;
   animation:
     typing-role 4s steps(25) infinite alternate,
     blink 0.5s step-end infinite;
