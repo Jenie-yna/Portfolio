@@ -142,6 +142,16 @@ img {
   font-weight: 500;
 }
 
+.hero-tagline {
+  max-width: 520px;
+  margin-top: -8px;
+  margin-bottom: 28px;
+  color: #c9b5d8;
+  font-size: 1rem;
+  line-height: 1.7;
+  letter-spacing: 0.2px;
+}
+
 .big-role {
   font-size: 4.5rem;
   font-weight: 800;
@@ -156,6 +166,7 @@ img {
   font-weight: 500;
   margin-bottom: 30px;
 }
+
 
 .hero-buttons {
   display: flex;
@@ -517,6 +528,13 @@ img {
   .hero-text h2 {
     font-size: 1.4rem;
   }
+}
+
+.hero-tagline {
+  max-width: 100%;
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 768px) {

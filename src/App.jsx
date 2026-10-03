@@ -28,6 +28,7 @@ function App() {
     <h1>Jeny An Telesforo</h1>
     <div className="role-group">
     <h2 className="typing-role">Frontend &amp; UI/UX Designer</h2>
+    <p className="hero-tagline"> Still learning, still creating, still improving. </p>
   </div>
 
   <div className="hero-buttons">
