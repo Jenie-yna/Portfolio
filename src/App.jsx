@@ -82,18 +82,37 @@ function App() {
     <span>CSS</span>
     <span>JavaScript</span>
     <span>React</span>
+    <span>Vite</span>
+  </div>
+  </div>
+  <div className="skills-box">
+    <h3>UI/UX Design</h3>
+    <div className="skill-list">
+    <span>Figma</span>
+    <span>Canva</span>
   </div>
   </div>
 
   <div className="skills-box">
-    <h3>Design</h3>
+    <h3>Development Tools</h3>
     <div className="skill-list">
-    <span>Figma</span>
-    <span>Wireframing</span>
-    <span>Prototyping</span>
-    <span>UI/UX</span>
+    <span>VS Code</span>
+    <span>Git</span>
+    <span>GitHub</span>
+    <span>XAMPP</span>
   </div>
   </div>
+
+  <div className="skills-box">
+    <h3>Backend</h3>
+    <div className="skill-list">
+    <span>Php</span>
+    <span>Node.js</span>
+    <span>Python</span>
+    <span>MySQL</span>
+  </div>
+  </div>
+  
   </div>
   </section>
 
