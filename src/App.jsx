@@ -102,38 +102,59 @@ function App() {
     <h2>Projects</h2>
   </div>
 
- <div className="projects-grid">
+  <div className="projects-grid">
 
-  <div className="project-card">
-    <img src="/product.png" alt="Project 1" />
-    <div className="project-overlay">
-      <h3>Product Landing Page</h3>
-    </div>
+    <a
+      href="https://www.figma.com/design/lRNr2ckS6YH5FiahvV7BZp/HCI?node-id=0-1&t=ki2e4ZCqaL2Jv2ne-1"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-card"
+    >
+      <img src="/product.png" alt="Product Landing Page" />
+      <div className="project-overlay">
+        <h3>Product Landing Page</h3>
+      </div>
+    </a>
+
+    <a
+      href="https://awesometodosapp-bb09.onrender.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-card"
+    >
+      <img src="/awesometodo.png" alt="Awesometodosapp" />
+      <div className="project-overlay">
+        <h3>Awesometodosapp</h3>
+      </div>
+    </a>
+
+    <a
+      href="https://www.figma.com/proto/WSL2c4wKWHOZznEZpfeWP6/Siklab?node-id=191-226&viewport=2580%2C-4%2C0.13&t=3mAQCEN3f9s9aft3-1&scaling=contain&content-scaling=fixed&starting-point-node-id=191%3A209&page-id=0%3A1"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-card"
+    >
+      <img src="/app.png" alt=" Web App" />
+      <div className="project-overlay">
+        <h3>Web App</h3>
+      </div>
+    </a>
+
+    <a
+      href="https://www.figma.com/proto/hMfDB1h6Ysy7SvKqtuIG9m/aktiv?page-id=9%3A2&node-id=457-543&viewport=-566%2C281%2C0.22&t=dg1DI7jzdjdRoJxQ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=457%3A543"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-card"
+    >
+      <img src="/aktiv.png" alt=" Web App" />
+      <div className="project-overlay">
+        <h3>Web App 2</h3>
+      </div>
+    </a>
+
   </div>
-
-  <div className="project-card">
-    <img src="/awesometodo.png" alt="Project 2" />
-    <div className="project-overlay">
-      <h3>Awesometodosapp</h3>
-    </div>
-  </div>
-
-  <div className="project-card">
-    <img src="/app.png" alt="Project 3" />
-    <div className="project-overlay">
-      <h3>Web App</h3>
-    </div>
-  </div>
-
-  <div className="project-card">
-    <img src="/aktiv.png" alt="Project 4" />
-    <div className="project-overlay">
-      <h3>Web App 2</h3>
-    </div>
-  </div>
-
-</div>
   </section>
+
   <section id="contact" className="contact-section">
    <h2>Contact Me</h2>
 
@@ -172,3 +193,4 @@ function App() {
 }
 
 export default App;
+
