@@ -71,7 +71,7 @@ function App() {
 
   <section id="skills" className="section skills">
     <div className="section-heading">
-    <h2>My Skills</h2>
+    <h2>Tools & Technologies</h2>
     </div>
 
   <div className="skills-grid">
@@ -108,7 +108,6 @@ function App() {
     <div className="skill-list">
     <span>Php</span>
     <span>Node.js</span>
-    <span>Python</span>
     <span>MySQL</span>
   </div>
   </div>
